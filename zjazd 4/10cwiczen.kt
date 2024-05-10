@@ -1,6 +1,6 @@
 /**
  * 1 Exercise
- * Prints the name and age.
+ * Complete the code to make the program print "Mary is 20 years old" to standard output:
  * @param name The name of the person.
  * @param age The age of the person.
  */
@@ -17,7 +17,7 @@ fun main() {
 
 /**
  * 2 Exercise
- * Main function to declare variables with explicit types.
+ * Explicitly declare the correct type for each variable:
  */
 fun main() {
     val a: Int = 1000
@@ -31,7 +31,7 @@ fun main() {
 
 /**
  * 3 Exercise
- * Main function to calculate and print the total count of numbers.
+ * You have a list of “green” numbers and a list of “red” numbers. Complete the code to print how many numbers there are in total.
  */
 fun main() {
     val greenNumbers = listOf(1, 4, 23)
@@ -43,7 +43,8 @@ fun main() {
 
 /**
  * 4 Exercise
- * Main function to check if the requested protocol is supported.
+ * You have a set of protocols supported by your server. A user requests to use a particular protocol. Complete the program to check whether the requested protocol
+ * is supported or not (isSupported must be a Boolean value).
  */
 fun main() {
     val SUPPORTED = setOf("HTTP", "HTTPS", "FTP")
@@ -55,7 +56,7 @@ fun main() {
 
 /**
  * 5 Exercise
- * Main function to spell integer numbers from 1 to 3 using a map.
+ * Define a map that relates integer numbers from 1 to 3 to their corresponding spelling. Use this map to spell the given number
  */
 fun main() {
     val number2word = mapOf(1 to "one", 2 to "two", 3 to "three")
@@ -66,7 +67,7 @@ fun main() {
 
 /**
  * 6 Exercise
- * Using a when expression to print actions based on the input button.
+ * Using a when expression, update the following program so that when you input the names of GameBoy buttons, the actions are printed to output.
  */
 fun main() {
     val button = "A"
@@ -84,7 +85,9 @@ fun main() {
 
 /**
  * 7 Exercise
- * Refactored program using a while loop to count pizza slices until there's a whole pizza with 8 slices.
+ * You have a program that counts pizza slices until there’s a whole pizza with 8 slices. Refactor this program in two ways:
+ * Use a while loop.
+ * Use a do-while loop.
  */
 fun main() {
     var pizzaSlices = 0
@@ -112,9 +115,8 @@ fun main() {
 
 /**
  * 8 Exercise
- * Program to simulate the Fizz buzz game.
- * Prints numbers from 1 to 100, replacing numbers divisible by three with "fizz", numbers divisible by five with "buzz",
- * and numbers divisible by both three and five with "fizzbuzz".
+ * Write a program that simulates the Fizz buzz game. Your task is to print numbers from 1 to 100 incrementally, replacing any number divisible by three with the word
+"fizz", and any number divisible by five with the word "buzz". Any number divisible by both 3 and 5 must be replaced with the word "fizzbuzz".
  */
 fun main() {
     for (number in 1..100) {
@@ -132,7 +134,7 @@ fun main() {
 
 /**
  * 9 Exercise
- * Program to print words from a list that start with the letter 'l'.
+ * You have a list of words. Use for and if to print only the words that start with the letter l.
  */
 fun main() {
     val words = listOf("dinosaur", "limousine", "magazine", "language")
@@ -146,7 +148,7 @@ fun main() {
 
 /**
  * 10 Exercise
- * Calculates the area of a circle.
+ * Write a function called circleArea that takes the radius of a circle in integer format as a parameter and outputs the area of that circle
  * @param radius The radius of the circle.
  * @return The area of the circle.
  */
